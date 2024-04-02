@@ -128,7 +128,7 @@ class Configuration
     /**
      * @return \Devloops\Typesence\Lib\Node
      */
-    public function getNearestNode(): Node
+    public function getNearestNode(): ?Node
     {
         return $this->nearestNode;
     }
