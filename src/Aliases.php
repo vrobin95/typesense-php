@@ -71,10 +71,7 @@ class Aliases implements \ArrayAccess
      */
     public function retrieve(): array
     {
-        return $this->apiCall->get(
-          $this->endPointPath(self::RESOURCE_PATH),
-          []
-        );
+        return $this->apiCall->get(self::RESOURCE_PATH,[]);
     }
 
     /**
